@@ -8,12 +8,13 @@ public class Collatz {
             for (int i = 1; i <= highestseed; i++) {
                 System.out.print(i); 
                 int value = i;
+				int howsteps = 1;
 				if (i == 1)
 				{
 					value = value+3;
 					System.out.print(" " + value);
+					howsteps ++;
 				}
-                int howsteps = 1;
                 while (value > 1) {
                     if (value % 2 == 0) {
                         value = value / 2;

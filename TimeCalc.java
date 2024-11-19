@@ -16,7 +16,7 @@ public class TimeCalc {
         int Hourtoadd = 0; 
         int NewHour = hours;
         int NewMin= Min + MinToAdd;
-        while ( NewMin > 60) 
+        while ( NewMin >= 60) 
         { 
             Hourtoadd= Hourtoadd + 1;
             NewMin=NewMin-60;
