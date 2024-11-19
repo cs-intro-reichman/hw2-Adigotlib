@@ -5,7 +5,7 @@ public class Cheers {
             int whatlength = Whattocheersfor.length();
             int i = 0;
             String letterschecks = "AEFHILMNORSXaefhilmnorsx";
-            String lowercase = "abcdefghijklmnopqrstuvwxz";
+            String lowercase = "abcdefghijklmnopqrstuvwxyz";
             String uppercase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
             String Whattocheersforbig = "";
             while (i < whatlength)
