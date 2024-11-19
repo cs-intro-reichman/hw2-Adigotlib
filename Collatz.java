@@ -1,6 +1,17 @@
-// Demonstrates the Collatz conjecture.
 public class Collatz {
 	public static void main(String args[]) {
-	    // Replace this comment with your code
+	    int highestseed = Integer.parseInt(args[0]);
+		String WhichMood = args[1];
+		char verbose = 'v';
+		if (WhichMood.indexOf(verbose) == -1)
+		{
+			
+
+		}
+		else 
+		{
+
+		}
+
 	}
 }
