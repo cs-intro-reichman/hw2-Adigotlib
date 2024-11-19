@@ -15,13 +15,13 @@ public class Cheers {
                 {
                         if (lowercase.indexOf(c) == -1) 
                         {
-                                System.out.println("Give me a " + c + ": " + c + "!");
+                                System.out.println("Give me a  " + c + ": " + c + "!");
                                 Whattocheersforbig = Whattocheersforbig + c;
                         }
                         else 
                         {
                              c = uppercase.charAt(lowercase.indexOf(c));
-                             System.out.println("Give me a " + c + ": " + c + "!");
+                             System.out.println("Give me a  " + c + ": " + c + "!");
                              Whattocheersforbig = Whattocheersforbig + c;
                         }
                         
